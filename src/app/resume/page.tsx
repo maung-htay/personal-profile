@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 
 const Resume = async () => {
-    const resumeData: Promise<Resume> = getAllResumes()
-    const data = await resumeData;
+    const resumeData: Resume = getAllResumes()
+    const data = resumeData;
     // console.log(data);
     return (
         <div className="mt-20 flex flex-col items-center mb-20">
