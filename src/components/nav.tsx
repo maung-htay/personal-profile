@@ -15,12 +15,13 @@ const Nav = () => {
 
                 <div className='cursor-pointer'>
 
-                    <h2 className='cursor-pointer'><a href='/'><Label htmlFor="terms">Home</Label></a></h2>
+                    <h2 className='cursor-pointer'><Link href='/'>Home</Link></h2>
                 </div>
                 <div className="flex items-baseline gap-4">
                     <div className="hidden gap-4 space-x-4 md:block">
-                        <a href="/resume"><Label htmlFor="#" className='cursor-pointer'>Resume</Label> </a>
-                        <a href="#"><Label htmlFor="#" className='cursor-pointer'>Work Background</Label> </a>
+                        <Label htmlFor="/resume" className='cursor-pointer'></Label>
+                        <Link href="/resume">Resume</Link>
+                        <Link href="/history">Work Background</Link>
                         {/* <ModeToggle /> */}
                     </div>
                     <ModeToggle />

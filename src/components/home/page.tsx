@@ -7,8 +7,8 @@ export default function HomePage() {
 
             <Image
                 src="/MH.png"
-                width={350}
-                height={350}
+                width={250}
+                height={250}
                 alt="Picture of the author"
                 className="rounded-full mt-10"
             />

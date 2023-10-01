@@ -1,5 +1,5 @@
 interface EducationBackground {
-    title: string;
+    title: string | null;
     date: string;
     extra: string;
     link: string;
@@ -46,4 +46,32 @@ type Resume = {
     "ability": string,
     "career-objective": string,
     "salary": string
+}
+
+// Work Experience
+interface JobCareer {
+    date: string;
+    dept: string;
+    jobContent: string;
+    jobs: Job[];
+}
+
+interface Job {
+    period: string;
+    pjContent: string;
+    responsible: {
+        detail: string;
+        participation: string[];
+    };
+    environment: {
+        languages: string[];
+        frameworks: string[];
+        systemEnvironment: string[];
+    };
+    role: string[];
+}
+
+interface workHistory {
+    "work-history": WorkHistory;
+    "job-career": JobCareer[];
 }
