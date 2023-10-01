@@ -40,7 +40,7 @@ const Nav = () => {
                             <ul>
 
                                 <li><Link href="/resume" onClick={() => setOpen(!open)}>Resume</Link></li>
-                                <li><Link href="/work" onClick={() => setOpen(!open)}>Work History</Link></li>
+                                <li><Link href="/history" onClick={() => setOpen(!open)}>Work History</Link></li>
                             </ul>
                         </div>
                     )
