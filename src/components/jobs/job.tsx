@@ -17,7 +17,7 @@ interface ReceivingProps {
 const JobPage: React.FC<ReceivingProps> = ({ data }) => {
   return (
     <Table className='w-full'>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableCaption>My job experiences.</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">業務期間</TableHead>
