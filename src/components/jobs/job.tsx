@@ -16,30 +16,30 @@ interface ReceivingProps {
 
 const JobPage: React.FC<ReceivingProps> = ({ data }) => {
   return (
-    <Table className='w-full border border-cyan-300'>
+    <Table className='w-full border border-cyan-300 align-top'>
       <TableCaption>My job experiences.</TableCaption>
-      <TableHeader>
+      <TableHeader className='align-text-top'>
         <TableRow>
           <TableHead className="w-[100px]">業務期間</TableHead>
-          <TableHead>プロジェクト名・内容</TableHead>
+          <TableHead className="w-[150px]">プロジェクト名・内容</TableHead>
           <TableHead>担当業務</TableHead>
-          <TableHead className="text-right">環境</TableHead>
-          <TableHead className="text-right">役割・規模</TableHead>
+          <TableHead className="text-left w-[170px]">環境</TableHead>
+          <TableHead className="text-left w-[200px]">役割・規模</TableHead>
           {/* <TableHead className="text-right">役割・規模</TableHead> */}
         </TableRow>
       </TableHeader>
       <TableBody>
 
         {data.map((eachJob, index) => (
-          <TableRow key={index}>
-            <TableCell className="font-medium top-0.5">{eachJob.period}</TableCell>
-            <TableCell className="font-medium">{eachJob.pjContent}</TableCell>
-            <TableCell className="font-medium">{eachJob.responsible.detail} <br />
+          <TableRow key={index} className=''>
+            <TableCell className="font-medium align-text-top">{eachJob.period}</TableCell>
+            <TableCell className="font-medium align-text-top">{eachJob.pjContent}</TableCell>
+            <TableCell className="font-medium align-text-top">{eachJob.responsible.detail} <br />
               {eachJob.responsible.participation.map(each =>
                 <li key={each}>{each}</li>
               )}
             </TableCell>
-            <TableCell className="font-medium">開発言語： 　<br />{eachJob.environment.languages.map(each =>
+            <TableCell className="font-medium align-text-top">開発言語： 　<br />{eachJob.environment.languages.map(each =>
               <li key={each} className='pl-2'>{each}</li>
             )}
               <br />
@@ -54,7 +54,7 @@ const JobPage: React.FC<ReceivingProps> = ({ data }) => {
               )}
 
             </TableCell>
-            <TableCell className="font-medium">
+            <TableCell className="font-medium align-text-top">
               {eachJob.role.map(each =>
                 <li key={each}>{each}</li>
               )}
