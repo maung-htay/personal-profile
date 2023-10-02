@@ -97,7 +97,7 @@ const DUMMY_WORK: workHistory = {
             "jobs": [
                 {
                     "period": "2020年 05月～2021年09月 （5ヶ月）",
-                    "pjContent": "Specteeようなプロジェクトの開発",
+                    "pjContent": "ファイバーケーブルを構築材料情報管理開発",
                     "responsible": {
                         "detail": "ファイバーケーブルを構築材料情報管理開発",
                         "participation": ["基本設計", "プログラム製造", "単体試験", "結合試験", "保守・運用"]
