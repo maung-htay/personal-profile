@@ -90,6 +90,28 @@ const DUMMY_WORK: workHistory = {
 
             ],
         },
+        {
+            "date": "2020年05月　～　2021年09月",
+            "dept": "■ ■ ICTスターグループミャンマー株式会社　システム開発事業部",
+            "jobContent": "業務内容：業務系Webアプリケーションの開発",
+            "jobs": [
+                {
+                    "period": "2020年 05月～2021年09月 （5ヶ月）",
+                    "pjContent": "Specteeようなプロジェクトの開発",
+                    "responsible": {
+                        "detail": "ファイバーケーブルを構築材料情報管理開発",
+                        "participation": ["基本設計", "プログラム製造", "単体試験", "結合試験", "保守・運用"]
+                    },
+                    "environment": {
+                        "languages": ["Python", "HTML/CSS,", "JS", "PostgreSQL"],
+                        "frameworks": ["Django"],
+                        "systemEnvironment": ["Window 10"]
+                    },
+                    "role": ["プロジェクトリーダー  ", "プロジェクト規模 人数：6人"]
+                },
+
+            ],
+        },
 
     ]
 }
