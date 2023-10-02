@@ -16,7 +16,7 @@ interface ReceivingProps {
 
 const JobPage: React.FC<ReceivingProps> = ({ data }) => {
   return (
-    <Table className='w-full'>
+    <Table className='w-full border border-cyan-300'>
       <TableCaption>My job experiences.</TableCaption>
       <TableHeader>
         <TableRow>
@@ -42,8 +42,23 @@ const JobPage: React.FC<ReceivingProps> = ({ data }) => {
             <TableCell className="font-medium">開発言語： 　<br />{eachJob.environment.languages.map(each =>
               <li key={each} className='pl-2'>{each}</li>
             )}
+              <br />
+              フレームワーク： <br />
+              {eachJob.environment.frameworks.map(each =>
+                <li key={each} className='pl-2'>{each}</li>
+              )}
+              <br />
+              システム環境： <br />
+              {eachJob.environment.systemEnvironment.map(each =>
+                <li key={each} className='pl-2'>{each}</li>
+              )}
+
             </TableCell>
-            <TableCell className="font-medium">{eachJob.role}</TableCell>
+            <TableCell className="font-medium">
+              {eachJob.role.map(each =>
+                <li key={each}>{each}</li>
+              )}
+            </TableCell>
           </TableRow>
 
         ))}

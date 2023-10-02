@@ -2,9 +2,9 @@ const DUMMY_RESUME = {
   "info": {
     "furigana": "マウン マウン ティ",
     "name": "MAUNG MAUNG HTAY",
-    "birth-date": "1989-06-25",
+    "birth-date": "",
     "country": "ミャンマー",
-    "phone": "09080007468",
+    "phone": "",
     "email": "maunghtay7@outlook.com",
     "address": "〒191-0042",
     "image": ""
