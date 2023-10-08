@@ -33,22 +33,11 @@ const History = () => {
 
                             <Label className='p-2'>{eachJob.date}</Label>
 
-
-
-                            {/* <div key={index} className="flex flex-col m-2 bg-slate-400 border rounded-md p-2 justify-between gap-3 items-baseline w-[100%]"> */}
                             <Label className='p-2'>{eachJob.dept}</Label>
 
-                            {/* </div> */}
-                            {/* <div key={index} className="flex flex-col m-2 bg-slate-400 border rounded-md p-2 justify-between gap-3 items-baseline w-[100%]"> */}
                             <Label className='p-2'>{eachJob.jobContent}</Label>
 
-                            {/* </div> */}
-
-
-
-                            <JobPage data={eachJob['jobs']} />
-
-
+                            <JobPage data={eachJob} />
 
                         </>
 

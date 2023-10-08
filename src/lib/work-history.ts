@@ -8,6 +8,7 @@ const DUMMY_WORK: workHistory = {
             "date": "2022年07月　～　現在",
             "dept": "NEC株式会社キャリアソリューション事業部",
             "jobContent": "業務内容：データ分析　テスト、プロジェクトのカスタマイズとWebアプリケーションの開発",
+            "jobSummary": "Data analysis and Auto Testing Tool Creating",
             "jobs": [
                 {
                     "period": "2023年08月～現在 ",
@@ -72,6 +73,7 @@ const DUMMY_WORK: workHistory = {
             "date": "2021年10月　～　2022年06月",
             "dept": "■ NEC株式会社第二キャリアシステム事業部",
             "jobContent": "業務内容：SpecteeようなプロジェクトをMyWorldで開発",
+            "jobSummary": "JS project",
             "jobs": [
                 {
                     "period": "2021年10月～2022年06月 （9ヶ月）",
@@ -94,6 +96,7 @@ const DUMMY_WORK: workHistory = {
             "date": "2020年05月　～　2021年09月",
             "dept": "■ ■ ICTスターグループミャンマー株式会社　システム開発事業部",
             "jobContent": "業務内容：業務系Webアプリケーションの開発",
+            "jobSummary": "Django Api Porject",
             "jobs": [
                 {
                     "period": "2020年 05月～2021年09月 （5ヶ月）",

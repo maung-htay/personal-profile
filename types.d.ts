@@ -53,6 +53,7 @@ interface JobCareer {
     date: string;
     dept: string;
     jobContent: string;
+    jobSummary: string;
     jobs: Job[];
 }
 

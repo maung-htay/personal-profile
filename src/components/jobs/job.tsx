@@ -11,13 +11,13 @@ import {
 
 
 interface ReceivingProps {
-  data: Job[] // Define the type of data you are receiving
+  data: JobCareer // Define the type of data you are receiving
 }
 
 const JobPage: React.FC<ReceivingProps> = ({ data }) => {
   return (
     <Table className='w-full border border-cyan-300 align-top'>
-      <TableCaption>My job experiences.</TableCaption>
+      <TableCaption>{data.jobSummary}</TableCaption>
       <TableHeader className='align-text-top'>
         <TableRow>
           <TableHead className="w-[100px]">業務期間</TableHead>
@@ -30,7 +30,7 @@ const JobPage: React.FC<ReceivingProps> = ({ data }) => {
       </TableHeader>
       <TableBody>
 
-        {data.map((eachJob, index) => (
+        {data['jobs'].map((eachJob, index) => (
           <TableRow key={index} className=''>
             <TableCell className="font-medium align-text-top">{eachJob.period}</TableCell>
             <TableCell className="font-medium align-text-top">{eachJob.pjContent}</TableCell>
