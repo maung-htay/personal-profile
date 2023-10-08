@@ -1,5 +1,6 @@
 import { getAllResumes } from "@/lib/resume"
 import { Label } from "@/components/ui/label"
+import type { Metadata } from 'next'
 import {
     Card,
     CardContent,
@@ -10,7 +11,10 @@ import {
 } from "@/components/ui/card"
 import Image from 'next/image'
 
-
+export const metadata: Metadata = {
+    title: 'Resume',
+    description: 'Created by @maung-htay',
+}
 const Resume = async () => {
     const resumeData: Resume = getAllResumes()
     const data = resumeData;

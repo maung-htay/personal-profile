@@ -2,6 +2,13 @@ import { getAllWorkHistory } from '@/lib/work-history'
 import { Label } from "@/components/ui/label"
 import JobPage from '@/components/jobs/job';
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Experience',
+    description: 'Created by @maung-htay',
+}
+
 const History = () => {
     const workData: workHistory = getAllWorkHistory()
     const data = workData;
