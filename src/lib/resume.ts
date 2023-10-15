@@ -1,4 +1,4 @@
-const DUMMY_RESUME = {
+const DUMMY_RESUME: Resume = {
   "info": {
     "furigana": "マウン マウン ティ",
     "name": "MAUNG MAUNG HTAY",
