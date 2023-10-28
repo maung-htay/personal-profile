@@ -21,7 +21,7 @@ const JobPage: React.FC<ReceivingProps> = ({ data }) => {
       <TableHeader className='align-text-top'>
         <TableRow>
           <TableHead className="w-[100px]">業務期間</TableHead>
-          <TableHead className="w-[150px]">プロジェクト名・内容</TableHead>
+          <TableHead className="w-[170px]">プロジェクト名・内容</TableHead>
           <TableHead>担当業務</TableHead>
           <TableHead className="text-left w-[170px]">環境</TableHead>
           <TableHead className="text-left w-[200px]">役割・規模</TableHead>
