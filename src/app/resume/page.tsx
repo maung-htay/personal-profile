@@ -189,7 +189,7 @@ const Resume = async () => {
                 <Card className="border border-cyan-300 w-full md:w-[650px]">
                     <CardContent>
                         <div className="flex flex-col w-full gap-4 md:p-2">
-                            <Label htmlFor="" className="mt-3 font-light tracking-wide ">{data["ability"]}</Label>
+                            <Label htmlFor="" className="mt-3 font-light tracking-wide ">{data["career-objective"]}</Label>
                         </div>
                     </CardContent>
                 </Card>
