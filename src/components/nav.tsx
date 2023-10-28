@@ -10,7 +10,7 @@ const Nav = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <nav className="fixed w-full  bg-slate-50 border-b-2 dark:bg-gray-900">
+        <nav className="fixed w-full  bg-slate-50 border-b-2 dark:bg-gray-900 z-50">
             <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-3 md:p-3">
 
                 <div className='cursor-pointer'>
@@ -37,7 +37,7 @@ const Nav = () => {
                 {
                     open && (
                         <div className='fixed right-3 top-14 border border-gray-400 rounded-md p-4 bg-gray-200 dark:text-white dark:bg-gray-800'>
-                            <ul>
+                            <ul className='space-y-2'>
 
                                 <li><Link href="/resume" onClick={() => setOpen(!open)}>Resume</Link></li>
                                 <li><Link href="/history" onClick={() => setOpen(!open)}>Work History</Link></li>

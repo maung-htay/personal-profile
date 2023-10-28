@@ -16,7 +16,7 @@ const History = () => {
     return (
         <div className="mt-20 flex flex-col items-center mb-20">
             <Label className="mt-10 text-3xl font-extralight tracking-wide">職　務　経　歴　書</Label>
-            <div className="flex flex-row mt-6 w-full px-[2%] gap-1 md:px-[20%] md:gap-32">
+            <div className="flex flex-row mt-6 w-full mx-[3%] py-[3%] gap-1 md:px-[20%] md:gap-32">
                 {/* Work History */}
                 <div className="flex flex-col text-left">
                     <Label htmlFor="" className="mt-3 tracking-wide text-2xl">—職務経歴 概略—</Label>
@@ -32,7 +32,7 @@ const History = () => {
 
             </div>
             {/* Education History */}
-            <div className="flex flex-row mt-6 px-[2%] gap-1 md:px-[20%] w-full">
+            <div className="flex flex-row mt-6 mx-[2%] gap-1 md:px-[20%] w-full">
                 <div className="flex flex-col ">
                     <Label htmlFor="" className="mt-3 tracking-wide text-2xl">—職務経歴—</Label>
                     {data['job-career'].map((eachJob, index) => (

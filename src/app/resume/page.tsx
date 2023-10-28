@@ -173,15 +173,35 @@ const Resume = async () => {
             </div>
             <Label className="mt-10 tracking-wide text-2xl font-extralight">特技・趣味・得意科目等</Label>
             <div className="flex flex-row mt-5 w-full px-[1%] gap-6 md:px-[30%] md:gap-32">
-                {/* <div className="flex flex-col border border-blue-200 rounded-md p-4 bg-slate-400">
-                    <Label htmlFor="" className="mt-3 font-extralight tracking-wide ">{data["ability"]}</Label>
-
-                </div> */}
 
                 <Card className="border border-cyan-300 w-full md:w-[650px]">
                     <CardContent>
                         <div className="flex flex-col w-full gap-4 md:p-2">
                             <Label htmlFor="" className="mt-3 font-light tracking-wide ">{data["ability"]}</Label>
+                        </div>
+                    </CardContent>
+                </Card>
+
+            </div>
+            <Label className="mt-10 tracking-wide text-2xl font-extralight">キャリア目標</Label>
+            <div className="flex flex-row mt-5 w-full px-[1%] gap-6 md:px-[30%] md:gap-32">
+
+                <Card className="border border-cyan-300 w-full md:w-[650px]">
+                    <CardContent>
+                        <div className="flex flex-col w-full gap-4 md:p-2">
+                            <Label htmlFor="" className="mt-3 font-light tracking-wide ">{data["ability"]}</Label>
+                        </div>
+                    </CardContent>
+                </Card>
+
+            </div>
+            <Label className="mt-10 tracking-wide text-2xl font-extralight">本人希望記入欄</Label>
+            <div className="flex flex-row mt-5 w-full px-[1%] gap-6 md:px-[30%] md:gap-32">
+
+                <Card className="border border-cyan-300 w-full md:w-[650px]">
+                    <CardContent>
+                        <div className="flex flex-col w-full gap-4 md:p-2">
+                            <Label htmlFor="" className="mt-3 font-light tracking-wide ">{data["salary"]}</Label>
                         </div>
                     </CardContent>
                 </Card>
