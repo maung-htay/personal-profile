@@ -76,3 +76,21 @@ interface workHistory {
     "work-history": WorkHistory;
     "job-career": JobCareer[];
 }
+
+// General Data
+interface qualification {
+    date: string;
+    degree: string;
+}
+
+interface skill {
+    jp: string;
+    languages: string;
+}
+
+type general = {
+    speciality: string[];
+    qualification: qualification[];
+    skill: skill[];
+}
+
