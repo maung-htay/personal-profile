@@ -20,7 +20,7 @@ const DUMMY_WORK: workHistory = {
                     "environment": {
                         "languages": ["Python", "HTML/CSS", "Bootstrap", "JS", "MongoDB", "Docker", "Docker Compose"],
                         "frameworks": ["Flask"],
-                        "systemEnvironment": ["Linux"]
+                        "systemEnvironment": ["Ubuntu(Aws Instance)"]
                     },
                     "role": ["ソフトウェアエンジニア ", "プロジェクト規模 人数：4人"]
                 },
@@ -34,7 +34,7 @@ const DUMMY_WORK: workHistory = {
                     "environment": {
                         "languages": ["Python", "HTML/CSS", "Bootstrap", "JS", "MongoDB", "Docker", "Docker Compose"],
                         "frameworks": ["Flask"],
-                        "systemEnvironment": ["Linux"]
+                        "systemEnvironment": ["Ubuntu(Aws Instance)"]
                     },
                     "role": ["ソフトウェアエンジニア ", "プロジェクト規模 人数：4人"]
                 },
@@ -48,7 +48,7 @@ const DUMMY_WORK: workHistory = {
                     "environment": {
                         "languages": ["Python"],
                         "frameworks": [""],
-                        "systemEnvironment": ["Linux"]
+                        "systemEnvironment": ["Ubuntu(Aws Instance)"]
                     },
                     "role": ["プロジェクトリーダー ", "プロジェクト規模 人数：1人"]
                 },
@@ -85,7 +85,7 @@ const DUMMY_WORK: workHistory = {
                     "environment": {
                         "languages": ["HTML/CSS,", "JS", "FME", "PostgreSQL"],
                         "frameworks": ["MyWorld"],
-                        "systemEnvironment": ["Linux"]
+                        "systemEnvironment": ["Ubuntu(Aws Instance)"]
                     },
                     "role": ["プロジェクトリーダー  ", "プロジェクト規模 人数：2人"]
                 },
