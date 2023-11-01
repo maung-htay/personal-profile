@@ -33,7 +33,7 @@ const DUMMY_RESUME: Resume = {
     },
     {
       "title": "JLPT(N2)合格",
-      "date": "2016-11 ~ Current",
+      "date": "2023-07",
       "extra": "",
       "link": "",
       "image": ""
@@ -42,7 +42,7 @@ const DUMMY_RESUME: Resume = {
   "work-history": [
     {
       "companyName": "ICTスターグループミャンマー株式会社にソフトウェアエンジニアとして入社",
-      "date": "2016-11 ~ Current"
+      "date": "2016-11 ~ 現在"
     }
   ],
   "qualification": [
