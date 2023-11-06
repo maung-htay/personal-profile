@@ -194,7 +194,7 @@ const DUMMY_WORK: workHistory = {
                     "period": "2018年 05月～2018年09月 （5ヶ月）",
                     "pjContent": "課題管理システム開発",
                     "responsible": {
-                        "detail": "Odooのシステムで課題管理ステム開発",
+                        "detail": "Odooのシステムで課題管理システム開発",
                         "participation": ["基本設計", "機能設計", "詳細設計", "プログラム製造", "単体試験", "結合試験", "バグ対応"]
                     },
                     "environment": {
