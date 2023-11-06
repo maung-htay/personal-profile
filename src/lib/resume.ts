@@ -62,7 +62,7 @@ const DUMMY_RESUME: Resume = {
     }
   ],
   "specialized-field": {
-    "name": "バックエンド開発とFullstack　開発",
+    "name": "バックエンド開発とFullstack　開発(試しています)",
     "languages": "Python、Java, JS, TypeScript,　React, NextJs、TailwindCss,　VBA、データベース、API開発に関する経験"
   },
   "ability": "ミャンマーでソフトウェアエンジニアとして３年間の開発経験、日本でソフトウェアエンジニアとして4年の開発経験があります。 使用した言語がプロジェクトに関する様々ありますが、特にJava, Python, JavaScript, VBA, Odoo, RPA Toolについてプロジェクト開発経験が多いです。情報管理システム開発にリーダーとして担当し、プロジェクトの成功に向けて、計画、管理、コミュニケーションなどを調整して行 いました。スキルアップため、UdemyでTypeScriptとNextJs、Docker, Kubernetes, Data Science、AWSを取れるよう勉強しています。さらに技術力を向上させると共に、新 たな可能性に挑戦したいと考えています。",
