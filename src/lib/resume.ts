@@ -2,7 +2,7 @@ const DUMMY_RESUME: Resume = {
   "info": {
     "furigana": "マウン マウン ティ",
     "name": "MAUNG MAUNG HTAY",
-    "birth-date": "1989年06月 25日   （34　歳）",
+    "birth-date": "",
     "country": "ミャンマー",
     "phone": "09080007468",
     "email": "maunghtay7@outlook.com",
@@ -68,7 +68,7 @@ const DUMMY_RESUME: Resume = {
   "ability": "ミャンマーでソフトウェアエンジニアとして３年間の開発経験、日本でソフトウェアエンジニアとして4年の開発経験があります。 使用した言語がプロジェクトに関する様々ありますが、特にJava, Python, JavaScript, VBA, Odoo, RPA Toolについてプロジェクト開発経験が多いです。情報管理システム開発にリーダーとして担当し、プロジェクトの成功に向けて、計画、管理、コミュニケーションなどを調整して行 いました。スキルアップため、UdemyでTypeScriptとNextJs、Docker, Kubernetes, Data Science、AWSを取れるよう勉強しています。さらに技術力を向上させると共に、新 たな可能性に挑戦したいと考えています。",
   "career-objective": "実現された経験を使用して、常に最新の技術トレンドや開発ツールについて学習し、自身の技術スキルを向上させます。 \
   新しいプログラミング言語やフレームワークに挑戦し、幅広い知識を習得します。効果的なコミュニケーションスキルを身につけ、他の開発者や関係者とのコラボレーションを図ります。プロジェクトのリーダーの担当を目指し、ソフトウェア開発プロセスを効果的に管理や、リーダーシップスキルを身につけます。",
-  "salary": "希望年収： 600万円"
+  "salary": "希望年収： "
 }
 
 export function getAllResumes() {
